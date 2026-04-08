@@ -26,9 +26,9 @@ public class BaseTest {
 
     @AfterClass
     public static void tearDown() {
-//        if(driver != null) {
-//            driver.quit();
-//            driver = null;
-//        }
+        if(driver != null) {
+            driver.quit();
+            driver = null;
+        }
     }
 }
